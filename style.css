@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(47,23,15,.65))),url(https://blackrockdigital.github.io/startbootstrap-business-casual/img/bg.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-header {
+    margin-top: 4rem;
+    color: #e6a756;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.header {
+    margin: .5rem;
+    font-size: 5rem;
+    color: white;
+}
+
+.nav-bar {
+    width: 100vw;
+    height: 5.5rem;
+    background-color: rgba(47,23,15,.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    color: white;
+    margin: 3rem;
+    font-weight: 700;
+}
+
+.home {
+    color: #e6a756;
+}
+
+.container {
+    margin: 6rem 0;
+    width: 80%;
+    position: relative;
+}
+
+.picture {
+    position: absolute;
+    right: 0;
+    width: 60rem;
+    border-radius: 1%
+}
+
+.white-box {
+    width: 30rem;
+    height: 20rem;
+    background-color: rgba(255,255,255,.85);
+    position: absolute;
+    top: 4rem;
+    border-radius: 1%;
+}
+
+.orange-box {
+    width: 10rem;
+    height: 5rem;
+    background-color: #df902a;
+    border-radius: 5%;
+    position: absolute;
+    bottom: -2.5rem;
+    left: 10rem;
+}
